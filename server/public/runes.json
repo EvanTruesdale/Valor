@@ -1,0 +1,84 @@
+{
+    "runes": [
+        {
+            "index": "flare",
+            "name": "Flare",
+            "description:": "While you are ignited helian mages around you add a d8 to all rune rolls and stellian mages add two negative d6s to all rune rolls"
+        },
+        {
+            "index": "hearth",
+            "name": "Hearth",
+            "description": "When you ignite, roll a rune roll. The number of successes is the amount of damage a melee attacker takes on a hit while you are ignited. While you are ignited hellian mages around you add a d4 to all rune rolls"
+        },
+        {
+            "index": "dawnwind",
+            "name": "Dawnwind",
+            "description": "While you are ignited you may take an action that gives a particular hellian mage a d10 on a single rune roll"
+        },
+        {
+            "index": "line-bow",
+            "name": "Line Bow",
+            "description": "When you are ignited, you may take two actions to make a rune roll. You deal the number of successes in damage to characters on a 40 foot line starting at you"
+        },
+        {
+            "index": "spit-fire",
+            "name": "Spit Fire",
+            "description": "When you are ignited, you may spend two actions to make a rune roll. You deal two times the number of successes in damage to a character within 5 feet of you. The character gets pushed back a number of feet equal to 5 times the number of successes. Lose an energy each time you do this"
+        },
+        {
+            "index": "ember-skin",
+            "name": "Ember Skin",
+            "description": "When you ignite, roll a rune roll. The number of successes is the amount of damage a melee attacker takes on a hit or miss while you are ignited. Gain 1 armor while you are ignited. You lose an energy each turn you stay ignited."
+        },
+        {
+            "index": "bonfire",
+            "name": "Bonfire",
+            "description": "When you ignite, roll a rune roll. Add the number of successes to all strikes against unarmored targets. Deal that damage to characters that miss you with a melee attack"
+        },
+        {
+            "index": "forge",
+            "name": "Forge",
+            "description": "When you ignite, roll a rune roll. Add the number of successes to all melee attack damage, add twice the number to strikes on unarmored targets."
+        },
+        {
+            "index": "well",
+            "name": "Well",
+            "description": "While you are ignited stellian mages around you add a d8 to all rune rolls, and hellian mages add two negative d6s to all rune rolls."
+        },
+        {
+            "index": "blackwind",
+            "name": "Blackwind",
+            "description": "While you are ignited you may take an action that gives a particular mage you can see two negative d10. These dice may be added to any rune roll they make in the next hour, your choice as long as you can see them. You may take this action multiple times a turn. This action is non-detectable."
+        },
+        {
+            "index": "specter-pull",
+            "name": "Specter Pull",
+            "description": "While you are ignited you may take two actions to make a rune roll. Steal an amount of energy from another character within 5 feet equal to the number of successes. Each time you take this action take a point of damage."
+        },
+        {
+            "index": "dark-pocket",
+            "name": "Dark Pocket",
+            "description": "The area around you becomes dark as night, everyone else loses focus equal to a rune roll. Mages around you add a negative d6 to all rune rolls"
+        },
+        {
+            "index": "void-grip",
+            "name": "Void Grip",
+            "description": "When you are ignited, an object you are holding gains the ability to cut light. Make a rune roll each time you hit someone with it. The number of successes is the number of negative d6 added to their next rune roll and they unignite."
+        },
+        {
+            "index": "eternal",
+            "name": "Eternal",
+            "description": "You're impossible to see when standing still. You may use an action to stand still. This adds a rune roll of negative d6s to the next attack on you"
+        },
+        {
+            "index": "blur-pocket",
+            "name": "Blur Pocket",
+            "description": "When you ignite, roll a rune roll. While you are ignited you add a number of negative d6 to all attacks on you and by you and rune rolls targeting you and by you equal to the number of successes on that rune roll"
+        },
+        {
+            "index": "shadow-touch",
+            "name": "Shadow Touch",
+            "description": "Touch a thing and turn it invisible as long as it doesn't move. The size and length of the effect are determined by a rune roll"
+        }
+    ]
+}

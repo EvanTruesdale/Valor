@@ -1,10 +1,14 @@
 "use strict"
 
 const express = require("express");
-const dice = require("./handlers/dice");
+const cors = require("cors");
+const dice = require("./src/dice");
+const runes = require("./src/runes");
+const weapons = require("./src/weapons");
 
 const app = express();
-const port = 3000;
+const port = 8090;
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.status(200).send({message: 'This is the Valor Homepage'});
@@ -28,9 +32,17 @@ app.get('/roll/d4/:d4/d6/:d6/d8/:d8/d10/:d10/d12/:d12', (req, res) => {
         array.push(dice.Dice.d12)
     }
     var result = dice.roll(array)
-    res.send(result);
+    res.status(200).send(result);
+});
+
+app.get('/runes/:rune', (req, res) => {
+    res.status(200).send(runes.rune(req.params.rune));
+});
+
+app.get('/weapons/:weapon', (req, res) => {
+    res.status(200).send(weapons.weapon(req.params.weapon))
 })
 
 app.listen(port, () => {
-    console.log(`Valor app looking on port ${port}`);
+    console.log(`Valor server looking on port ${port}`);
 });

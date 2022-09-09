@@ -1,0 +1,386 @@
+{
+    "weapons": [
+        {
+            "index": "iklwa",
+            "name": "Iklwa",
+            "thrust": [
+                "weak",
+                "engage",
+                "short"
+            ],
+            "bludgeon": [
+                "weak",
+                "short"
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+            ],
+            "size": "small",
+            "off-hand": "Deal 1 Damage on a Miss",
+            "notes": ""
+        },
+        {
+            "index": "javelin",
+            "name": "Javelin",
+            "thrust": [
+            ],
+            "bludgeon": [
+                "weak"
+            ],
+            "slash": [
+            ],
+            "throw": [
+                "strong"
+            ],
+            "fire": [
+            ],
+            "size": "side-arm",
+            "off-hand": "Deal 1 Damage on a Miss",
+            "notes": ""
+        },
+        {
+            "index": "spear",
+            "name": "Spear",
+            "thrust": [
+                "reach",
+                "engage"
+            ],
+            "bludgeon": [
+                "weak"
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+            ],
+            "size": "large",
+            "off-hand": "",
+            "notes": ""
+        },
+        {
+            "index": "dagger",
+            "name": "Dagger",
+            "thrust": [
+                "weak",
+                "short"
+            ],
+            "bludgeon": [
+                "weak",
+                "short"
+            ],
+            "slash": [
+                "weak",
+                "short"
+            ],
+            "throw": [
+                "weak"
+            ],
+            "fire": [
+            ],
+            "size": "small",
+            "off-hand": "When you add a negative dice to an attacker's pool, deal 1 damager to them",
+            "notes": ""
+        },
+        {
+            "index": "half-sword",
+            "name": "Half Sword",
+            "thrust": [
+            ],
+            "bludgeon": [
+                "weak",
+                "short"
+            ],
+            "slash": [
+            ],
+            "throw": [
+                "weak",
+                "title"
+            ],
+            "fire": [
+            ],
+            "size": "side-arm",
+            "off-hand": "When you add a negative dice to an attacker's pool, deal 1 damager to them",
+            "notes": ""
+        },
+        {
+            "index": "arming-sword",
+            "name": "Arming Sword",
+            "thrust": [
+                "engage"
+            ],
+            "bludgeon": [
+                "engage"
+            ],
+            "slash": [
+                "engage"
+            ],
+            "throw": [
+                "title"
+            ],
+            "fire": [
+            ],
+            "size": "side-arm",
+            "off-hand": "",
+            "notes": ""
+        },
+        {
+            "index": "warhammer",
+            "name": "Warhammer",
+            "thrust": [
+                "slow",
+                "engage",
+                "two-handed"
+            ],
+            "bludgeon": [
+                "strong",
+                "slow",
+                "smash",
+                "two-handed",
+                "engage"
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+            ],
+            "size": "large",
+            "off-hand": "",
+            "notes": ""
+        },
+        {
+            "index": "flail",
+            "name": "Flail",
+            "thrust": [
+            ],
+            "bludgeon": [
+                "engage",
+                "smash"
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+            ],
+            "size": "side-arm",
+            "off-hand": "",
+            "notes": ""
+        },
+        {
+            "index": "mace",
+            "name": "Mace",
+            "thrust": [
+            ],
+            "bludgeon": [
+                "smash"
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+            ],
+            "size": "side-arm",
+            "off-hand": "Gain 1 damage on melee attacks",
+            "notes": ""
+        },
+        {
+            "index": "baton",
+            "name": "Baton",
+            "thrust": [
+            ],
+            "bludgeon": [
+                "weak",
+                "smash",
+                "short"
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+            ],
+            "size": "small",
+            "off-hand": "Gain 1 damage on melee attacks",
+            "notes": ""
+        },
+        {
+            "index": "battle-axe",
+            "name": "Battle Axe",
+            "thrust": [
+            ],
+            "bludgeon": [
+                "weak",
+                "engage"
+            ],
+            "slash": [
+                "swing",
+                "engage"
+            ],
+            "throw": [
+            ],
+            "fire": [
+            ],
+            "size": "side-arm",
+            "off-hand": "",
+            "notes": ""
+        },
+        {
+            "index": "hand-axe",
+            "name": "Hand Axe",
+            "thrust": [
+            ],
+            "bludgeon": [
+                "weak"
+            ],
+            "slash": [
+                "swing"
+            ],
+            "throw": [
+            ],
+            "fire": [
+            ],
+            "size": "side-arm",
+            "off-hand": "Deal 2 Damage on another creature on melee hit",
+            "notes": ""
+        },
+        {
+            "index": "hatchet",
+            "name": "Hatchet",
+            "thrust": [
+            ],
+            "bludgeon": [
+            ],
+            "slash": [
+                "weak",
+                "swing",
+                "short"
+            ],
+            "throw": [
+                "weak"
+            ],
+            "fire": [
+            ],
+            "size": "side-arm",
+            "off-hand": "Deal 2 Damage on another creature on melee hit",
+            "notes": ""
+        },
+        {
+            "index": "brass-knuckles",
+            "name": "Brass Knuckles",
+            "thrust": [
+            ],
+            "bludgeon": [
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+            ],
+            "size": "small",
+            "off-hand": "Gain 1 damage on strikes",
+            "notes": ""
+        },
+        {
+            "index": "crossbow",
+            "name": "Crossbow",
+            "thrust": [
+            ],
+            "bludgeon": [
+                "weak"
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+                "strong",
+                "slow",
+                "two-handed"
+            ],
+            "size": "large",
+            "off-hand": "",
+            "notes": ""
+        },
+        {
+            "index": "polybus",
+            "name": "Polybus",
+            "thrust": [
+            ],
+            "bludgeon": [
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+                "strong",
+                "two-handed"
+            ],
+            "size": "large",
+            "off-hand": "",
+            "notes": "Requires 8 strength"
+        },
+        {
+            "index": "short-bow",
+            "name": "Short Bow",
+            "thrust": [
+            ],
+            "bludgeon": [
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+                "two-handed"
+            ],
+            "size": "large",
+            "off-hand": "",
+            "notes": "Requires 6 strength"
+        },
+        {
+            "index": "long-bow",
+            "name": "Long Bow",
+            "thrust": [
+            ],
+            "bludgeon": [
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+                "slow",
+                "two-handed"
+            ],
+            "size": "",
+            "off-hand": "",
+            "notes": "160 foot range. Requires 6 strength"
+        },
+        {
+            "index": "sling",
+            "name": "Sling",
+            "thrust": [
+            ],
+            "bludgeon": [
+            ],
+            "slash": [
+            ],
+            "throw": [
+            ],
+            "fire": [
+                "none"
+            ],
+            "size": "side-arm",
+            "off-hand": "",
+            "notes": "Deals Bludgeon damage. Requires 7 strength"
+        }
+    ]
+}
