@@ -7,7 +7,7 @@ const runes = require("./src/runes");
 const weapons = require("./src/weapons");
 
 const app = express();
-const port = process.env.SERVER_CONTAINER_PORT;
+const port = process.env.REACT_APP_SERVER_CONTAINER_PORT;
 app.use(cors());
 
 app.get('/', (req, res) => {

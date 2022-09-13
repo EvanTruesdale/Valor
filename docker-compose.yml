@@ -1,14 +1,17 @@
 version: '3.9'
 services:
   app:
-    build: './app'
+    build: 
+      context: './app'
+      args:
+        REACT_APP_SERVER_CONTAINER_PORT: $REACT_APP_SERVER_CONTAINER_PORT
     env_file:
       - .env
     ports: 
-      - '$APP_HOST_PORT:$APP_CONTAINER_PORT'
+      - '$REACT_APP_APP_HOST_PORT:$REACT_APP_APP_CONTAINER_PORT'
   server:
     build: './server'
     env_file:
       - .env
     ports: 
-      - '$SERVER_HOST_PORT:$SERVER_CONTAINER_PORT'
+      - '$REACT_APP_SERVER_HOST_PORT:$REACT_APP_SERVER_CONTAINER_PORT'

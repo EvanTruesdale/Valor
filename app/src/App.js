@@ -1,4 +1,3 @@
-// import './App.css';
 import TextField from '@mui/material/TextField';
 import { useState } from 'react';
 import { Button } from '@mui/material';
@@ -7,7 +6,7 @@ function App() {
 
   const [content, setContent] = useState("");
 
-  const apiUrl = "http://localhost:8090/";
+  const apiUrl = "http://localhost:"+process.env.REACT_APP_SERVER_CONTAINER_PORT+"/";
   const sendRequest = (host) => {
     fetch(host)
     .then(res => res.json())
