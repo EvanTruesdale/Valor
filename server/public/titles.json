@@ -1,0 +1,116 @@
+{
+    "titles": [
+        {
+            "field": "acrobatics",
+            "index": "acrobat",
+            "name": "Acrobat",
+            "description": "Add a negative d6 to all engage attacks made on you",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "acrobatics",
+            "index": "spider",
+            "name": "Spider",
+            "description": "Gain a d6 on all acrobat rolls an increase your movement speed by 10",
+            "prerec": ["acrobat"],
+            "cost": 2
+        },
+        {
+            "field": "acrobatics",
+            "index": "dancer",
+            "name": "Dancer",
+            "description": "Add a second agility die when you dodge",
+            "prerec": ["acrobat"],
+            "cost": 2
+        },
+        {
+            "field": "acrobatics",
+            "index": "black-widow",
+            "name": "Black Widow",
+            "description": "You can choose to not make noise when you move",
+            "prerec": ["spider"],
+            "cost": 3
+        },
+        {
+            "field": "acrobatics",
+            "index": "jumping-spider",
+            "name": "Jumping Spider",
+            "description": "You don't have to make a check trees or other rough surfaces (buildings, etc.)",
+            "prerec": ["spider"],
+            "cost": 3
+        },
+        {
+            "field": "acrobatics",
+            "index": "smoke-dancer",
+            "name": "Smoke Dancer",
+            "description": "You can not be targeted by engage attacks, increase your movement speed by 15, and add a negative d4 to all attacks made on you",
+            "prerec": ["dancer"],
+            "cost": 3
+        },
+        {
+            "field": "acrobatics",
+            "index": "water-dancer",
+            "name": "Water Dancer",
+            "description": "Eac htime an attack misses you, move 15 feet in any direction and push the attacker",
+            "prerec": ["dancer"],
+            "cost": 3
+        },
+        {
+            "field": "beast-handling",
+            "index": "handler",
+            "name": "Handler",
+            "description": "You start with a pet",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "beast-handling",
+            "index": "calvary",
+            "name": "Calvary",
+            "description": "You only need one hand to ride a beast",
+            "prerec": ["handler"],
+            "cost": 2
+        },
+        {
+            "field": "beast-handling",
+            "index": "kennel-master",
+            "name": "Kennel Master",
+            "description": "Gain a d8 on handling animals smaller than you",
+            "prerec": ["handler"],
+            "cost": 2
+        },
+        {
+            "field": "beast-handling",
+            "index": "cataphract",
+            "name": "Cataphract",
+            "description": "Your mount gains 2d8 on all confidence rolls",
+            "prerec": ["calvary"],
+            "cost": 3
+        },
+        {
+            "field": "beast-handling",
+            "index": "hussar",
+            "name": "Hussar",
+            "description": "Your mount doubles its movement speed",
+            "prerec": ["calvary"],
+            "cost": 3
+        },
+        {
+            "field": "beast-handling",
+            "index": "shepard",
+            "name": "Shepard",
+            "description": "When you command, you may command a number of animals smaller than you equal to the number of successes on your command roll",
+            "prerec": ["kennel-master"],
+            "cost": 3
+        },
+        {
+            "field": "beast-handling",
+            "index": "beastmaster",
+            "name": "Beastmaster",
+            "description": "Choose a beast you have a good relationship with, that beast will attempt to do anything you tell it to do",
+            "prerec": ["kennel-master"],
+            "cost": 3
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+    "attributes": [
+        {
+            "index": "strong",
+            "name": "Strong",
+            "description": "Gain 3 strength",
+            "cost": 4
+        },
+        {
+            "index": "tough",
+            "name": "Tough",
+            "description": "Gain 2 strength",
+            "cost": 2
+        },
+        {
+            "index": "weak",
+            "name": "Weak",
+            "description": "Lose 2 strength",
+            "cost": -2
+        },
+        {
+            "index": "agile",
+            "name": "Agile",
+            "description": "Gain 3 agility",
+            "cost": 4
+        },
+        {
+            "index": "quick",
+            "name": "Quick",
+            "description": "Gain 2 agility",
+            "cost": 2
+        },
+        {
+            "index": "slow",
+            "name": "Slow",
+            "description": "Lose 2 agility",
+            "cost": -2
+        },
+        {
+            "index": "focused",
+            "name": "Focused",
+            "description": "Gain 3 focus",
+            "cost": 4
+        },
+        {
+            "index": "sharp",
+            "name": "Sharp",
+            "description": "Gain 2 focus",
+            "cost": 2
+        },
+        {
+            "index": "dull",
+            "name": "Dull",
+            "description": "Lose 2 focus",
+            "cost": -2
+        },
+        {
+            "index": "confident",
+            "name": "Confident",
+            "description": "Gain 3 confidence",
+            "cost": 4
+        },
+        {
+            "index": "bold",
+            "name": "Bold",
+            "description": "Gain 2 confidence",
+            "cost": 2
+        },
+        {
+            "index": "timid",
+            "name": "Timd",
+            "description": "Lose 2 confidence",
+            "cost": -2
+        },
+        {
+            "index": "academic",
+            "name": "Academic",
+            "description": "Gain 2 focus when reading. Gain two free titles in the knowledge tree",
+            "cost": 1
+        },
+        {
+            "index": "acute-senses",
+            "name": "Acute Senses",
+            "description": "Add a d6 when making perception checks",
+            "cost": 1
+        },
+        {
+            "index": "attractiveness",
+            "name": "Attractiveness",
+            "description": "Add 1 to all dice when making speech rolls with people who are attracted to you",
+            "cost": 3
+        },
+        {
+            "index": "castigator",
+            "name": "Castigator",
+            "description": "Add your total harm from your confidence",
+            "cost": 2
+        },
+        {
+            "index": "criminal",
+            "name": "Criminal",
+            "description": "You're hiding from the law",
+            "cost": 0
+        },
+        {
+            "index": "dry-blooded",
+            "name": "Dry Blooded",
+            "description": "Add a negataive d6 to rune rolls you make and ones made against you",
+            "cost": 2
+        },
+        {
+            "index": "dull-senses",
+            "name": "Dull Senses",
+            "description": "Add two negative d6 when making perception checks",
+            "cost": -1
+        },
+        {
+            "index": "dumb-luck",
+            "name": "Dumb Luck",
+            "description": "Lose 2 focus. You may add an additional attribute die to any roll once a day",
+            "cost": 1
+        },
+        {
+            "index": "fast-reactions",
+            "name": "Fast Reactions",
+            "description": "Take two actions during enemies surprise rounds",
+            "cost": 1
+        },
+        {
+            "index": "fearful",
+            "name": "Fearful",
+            "description": "Subtract your total harm from your confidence",
+            "cost": -2
+        },
+        {
+            "index": "fire-blooded",
+            "name": "Fire Blooded",
+            "description": "Add a d6 to rune rolls you make and ones made against you",
+            "cost": 2
+        },
+        {
+            "index": "hyper",
+            "name": "Hyper",
+            "description": "Gain 2 energy",
+            "cost": 2
+        },
+        {
+            "index": "insomniac",
+            "name": "Insomniac",
+            "description": "Lose 2 energy",
+            "cost": -2
+        },
+        {
+            "index": "item",
+            "name": "Item",
+            "description": "You start with a powerful item",
+            "cost": 0
+        },
+        {
+            "index": "nerves-of-steel",
+            "name": "Nerves of Steel",
+            "description": "Twice per day, when you have lost confidence, don't",
+            "cost": 1
+        },
+        {
+            "index": "pain-resistance",
+            "name": "Pain Resistance",
+            "description": "Use one die smaller for your harm die. For example, a 6 harm now rolls a d4",
+            "cost": 2
+        },
+        {
+            "index": "runic",
+            "name": "Runic",
+            "description": "You start with one rune",
+            "cost": 2
+        },
+        {
+            "index": "sharp-tongue",
+            "name": "Sharp Tongue",
+            "description": "Gain 1 confidence on speech rolls",
+            "cost": 1
+        },
+        {
+            "index": "silver-tongue",
+            "name": "Silver Tongue",
+            "description": "Gain 2 confidence on speech rolls with non-hostile characters",
+            "cost": 2
+        },
+        {
+            "index": "slow-reactions",
+            "name": "Slow Reactions",
+            "description": "Add two negative d6 to your initiative dice pool",
+            "cost": -1
+        },
+        {
+            "index": "steel-gaze",
+            "name": "Steel Gaze",
+            "description": "Gain 2 confidence on speech rolls with hostile characters",
+            "cost": 2
+        }
+    ]
+}

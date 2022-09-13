@@ -2,9 +2,12 @@
 
 const express = require("express");
 const cors = require("cors");
+
 const dice = require("./src/dice");
 const runes = require("./src/runes");
 const weapons = require("./src/weapons");
+const attributes = require("./src/attributes");
+const titles = require("./src/titles");
 
 const app = express();
 const port = process.env.REACT_APP_SERVER_CONTAINER_PORT;
@@ -41,6 +44,14 @@ app.get('/runes/:rune', (req, res) => {
 
 app.get('/weapons/:weapon', (req, res) => {
     res.status(200).send(weapons.weapon(req.params.weapon))
+})
+
+app.get('/attributes/:attribute', (req, res) => {
+    res.status(200).send(attributes.attribute(req.params.attribute))
+})
+
+app.get('/titles/:title', (req, res) => {
+    res.status(200).send(titles.title(req.params.title))
 })
 
 app.listen(port, () => {
