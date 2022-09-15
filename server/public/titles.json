@@ -111,6 +111,846 @@
             "description": "Choose a beast you have a good relationship with, that beast will attempt to do anything you tell it to do",
             "prerec": ["kennel-master"],
             "cost": 3
+        },
+        {
+            "field": "brawling",
+            "index": "striker",
+            "name": "Striker",
+            "description": "Add a confidence die to strikes",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "brawling",
+            "index": "heavy-hitter",
+            "name": "Heavy Hitter",
+            "description": "Increase the maximum damage of strikes by one",
+            "prerec": ["stiker"],
+            "cost": 2
+        },
+        {
+            "field": "brawling",
+            "index": "martial-artist",
+            "name": "Martial Artist",
+            "description": "Roll an agility die instead of the strength die for strikes",
+            "prerec": ["stiker"],
+            "cost": 2
+        },
+        {
+            "field": "brawling",
+            "index": "wrestler",
+            "name": "Wrestler",
+            "description": "Gain a d6 to tackle rolls and pinning now gives a genative d8",
+            "prerec": ["heavy-hitter"],
+            "cost": 3
+        },
+        {
+            "field": "brawling",
+            "index": "bone-breaker",
+            "name": "Bone Breaker",
+            "description": "Your strikes gain 1 damage, and deal bludgeoning damage",
+            "prerec": ["heavy-hitter"],
+            "cost": 3
+        },
+        {
+            "field": "brawling",
+            "index": "three-handed-viper",
+            "name": "Three-Handed Viper",
+            "description": "Each time you add negative die to an attack roll and cause the attack to miss. Gain a free strike attack on any opponent",
+            "prerec": ["martial-artist"],
+            "cost": 3
+        },
+        {
+            "field": "brawling",
+            "index": "balance-master",
+            "name": "Balance Master",
+            "description": "Gain a boon each time you hit a strike",
+            "prerec": ["martial-artist"],
+            "cost": 3
+        },
+        {
+            "field": "dexterity",
+            "index": "lift-artist",
+            "name": "Lift Artist",
+            "description": "",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "dexterity",
+            "index": "distraction-artist",
+            "name": "Distraction Artist",
+            "description": "Gain a d6 to stealth checks made to conceal a dexterity check",
+            "prerec": ["lift-artist"],
+            "cost": 2
+        },
+        {
+            "field": "dexterity",
+            "index": "brawl-artist",
+            "name": "Brawl Artist",
+            "description": "Gain a d6 to attacks with the short tag",
+            "prerec": ["lift-artist"],
+            "cost": 2
+        },
+        {
+            "field": "dexterity",
+            "index": "pocket-artist",
+            "name": "Pocket Artist",
+            "description": "Gain a d8 when pickpocketing",
+            "prerec": ["distraction-artist"],
+            "cost": 3
+        },
+        {
+            "field": "dexterity",
+            "index": "lock-artist",
+            "name": "Lock Artist",
+            "description": "Gain a d8 when lockpicking",
+            "prerec": ["distraction-artist"],
+            "cost": 3
+        },
+        {
+            "field": "dexterity",
+            "index": "knife-dancer",
+            "name": "Knife Dancer",
+            "description": "When you thorw small weapons, replace your strength die with an agility die and throwing small weapons counts as a strike action, not an attack action",
+            "prerec": ["brawl-artist"],
+            "cost": 3
+        },
+        {
+            "field": "dexterity",
+            "index": "smuggler",
+            "name": "Smuggler",
+            "description": "Your small weapons can not be detected",
+            "prerec": ["brawl-artist"],
+            "cost": 3
+        },
+        {
+            "field": "herbalism",
+            "index": "healer",
+            "name": "Healer",
+            "description": "Once every 23 hours you may subtract an amount of harm equl to a focus herbalism roll",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "herbalism",
+            "index": "mistic",
+            "name": "Mistic",
+            "description": "Choose a natural terrain. Add a confidence die to healing rolls made in this terrain and gain knowledge of two helpful herbs that grow there",
+            "prerec": ["healer"],
+            "cost": 2
+        },
+        {
+            "field": "herbalism",
+            "index": "medic",
+            "name": "Medic",
+            "description": "Add a confidence die to healing rolls",
+            "prerec": ["healer"],
+            "cost": 2
+        },
+        {
+            "field": "herbalism",
+            "index": "doctor",
+            "name": "Doctor",
+            "description": "With proper tools add a d10 to your herbalism roll pool",
+            "prerec": ["medic"],
+            "cost": 3
+        },
+        {
+            "field": "herbalism",
+            "index": "field-medic",
+            "name": "Field Medic",
+            "description": "You may move a character in critical condition without dealing damage",
+            "prerec": ["medic"],
+            "cost": 3
+        },
+        {
+            "field": "herbalism",
+            "index": "druidic-traveler",
+            "name": "Druidic Traveler",
+            "description": "Choose two more natural terrains, gain knowledge of four more herbs",
+            "prerec": ["mistic"],
+            "cost": 3
+        },
+        {
+            "field": "herbalism",
+            "index": "unrelenting-shaman",
+            "name": "Unrelenting Shaman",
+            "description": "Gain knowledge of two more herbs from your terrain and one very useful complex concoction",
+            "prerec": ["mistic"],
+            "cost": 3
+        },
+        {
+            "field": "knowledge",
+            "index": "reader",
+            "name": "Reader",
+            "description": "Gain a d6 on perception checks in books",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "knowledge",
+            "index": "article-reader",
+            "name": "Article Reader",
+            "description": "Developments",
+            "prerec": ["reader"],
+            "cost": 2
+        },
+        {
+            "field": "knowledge",
+            "index": "great-works-reader",
+            "name": "Great Works Reader",
+            "description": "Culture",
+            "prerec": ["reader"],
+            "cost": 2
+        },
+        {
+            "field": "knowledge",
+            "index": "natural-philosopher",
+            "name": "Natural Philosopher",
+            "description": "Natural Philosophy",
+            "prerec": ["article-reader"],
+            "cost": 3
+        },
+        {
+            "field": "knowledge",
+            "index": "politcal-theorist",
+            "name": "Political Theorist",
+            "description": "Recent Events / Important People",
+            "prerec": ["article-reader"],
+            "cost": 3
+        },
+        {
+            "field": "knowledge",
+            "index": "critic",
+            "name": "Critic",
+            "description": "Literature / Art",
+            "prerec": ["great-works-reader"],
+            "cost": 3
+        },
+        {
+            "field": "knowledge",
+            "index": "historian",
+            "name": "Historian",
+            "description": "History",
+            "prerec": ["great-works-reader"],
+            "cost": 3
+        },
+        {
+            "field": "marksmanship",
+            "index": "marksman",
+            "name": "Marksman",
+            "description": "Roll a focus die instead of a strength die for your damage die with ranged weapons",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "marksmanship",
+            "index": "deadeye",
+            "name": "Deadeye",
+            "description": "Add 40 feet of range to all ranged weapons. Your aim dice count as damage dice as well",
+            "prerec": ["marksman"],
+            "cost": 2
+        },
+        {
+            "field": "marksmanship",
+            "index": "ranger",
+            "name": "Ranger",
+            "description": "If you hit a ranged attack, gain a free action",
+            "prerec": ["marksman"],
+            "cost": 2
+        },
+        {
+            "field": "marksmanship",
+            "index": "deadshot",
+            "name": "Deashot",
+            "description": "Double your aim dice when you aim with a ranged weapon",
+            "prerec": ["deadeye"],
+            "cost": 3
+        },
+        {
+            "field": "marksmanship",
+            "index": "longshot",
+            "name": "Longshot",
+            "description": "You may roll all focus die for a ranged attack before you commit to attacking",
+            "prerec": ["deadeye"],
+            "cost": 3
+        },
+        {
+            "field": "marksmanship",
+            "index": "combined-armor",
+            "name": "Combined Armor",
+            "description": "You may make an attack with a small weapon on the same turn you make a ranged attack",
+            "prerec": ["ranger"],
+            "cost": 3
+        },
+        {
+            "field": "marksmanship",
+            "index": "gut-shot-ranger",
+            "name": "Gut-Shot Ranger",
+            "description": "Decrease the range of all ranged weeapons by 40 feet. Add a confidence roll to your pool",
+            "prerec": ["ranger"],
+            "cost": 3
+        },
+        {
+            "field": "melee-combat",
+            "index": "warrior",
+            "name": "Warrior",
+            "description": "When you push an opponent, you may choose the space they move to",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "melee-combat",
+            "index": "fervent-warrior",
+            "name": "Fervent Warrior",
+            "description": "Add an additional strength die to your attacking pool during weapon melee attacks. The damage will be determind by their higher of the two strength die",
+            "prerec": ["warrior"],
+            "cost": 2
+        },
+        {
+            "field": "melee-combat",
+            "index": "balanced-warrior",
+            "name": "Balanced Warrior",
+            "description": "Add a confidence die and a focus die to your attacking pool during weapon melee attacks",
+            "prerec": ["warrior"],
+            "cost": 2
+        },
+        {
+            "field": "melee-combat",
+            "index": "weakpoint-specialist",
+            "name": "Weakpoint Specialist",
+            "description": "Deal 2 extra damage to armored opponents when your attack is effective during weapon melee attacks",
+            "prerec": ["fervent-warrior"],
+            "cost": 3
+        },
+        {
+            "field": "melee-combat",
+            "index": "titan-swing-warrior",
+            "name": "Titan-Swing Warrior",
+            "description": "When you aim with a slow weapon attack targets may not add negative die to your attack",
+            "prerec": ["fervent-warrior"],
+            "cost": 3
+        },
+        {
+            "field": "melee-combat",
+            "index": "battle-master",
+            "name": "Battle Master",
+            "description": "Focus die count like strength die for damage during weapon melee attacks",
+            "prerec": ["balanced-warrior"],
+            "cost": 3
+        },
+        {
+            "field": "melee-combat",
+            "index": "strategist",
+            "name": "Strategist",
+            "description": "When you aim with a melee weapon, add four d4 as well",
+            "prerec": ["balanced-warrior"],
+            "cost": 3
+        },
+        {
+            "field": "nature",
+            "index": "naturalist",
+            "name": "Naturalist",
+            "description": "You and your party may walk an additional 5 miles each day",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "nature",
+            "index": "terrain-specialist",
+            "name": "Terrain Specialist",
+            "description": "Gain a d8 instead when making hunting checks in your chosen terrain, you may give a d4 to med rolls made in this terrain",
+            "prerec": ["naturalist"],
+            "cost": 2
+        },
+        {
+            "field": "nature",
+            "index": "survivalist",
+            "name": "Survivalist",
+            "description": "You gain 1 armor against cold or hot environment damage",
+            "prerec": ["naturalist"],
+            "cost": 2
+        },
+        {
+            "field": "nature",
+            "index": "land's-shadow",
+            "name": "Land's Shadow",
+            "description": "Gain a d8 when making stealth or acrobatics checks in you chosen terrain",
+            "prerec": ["terrain-specialist"],
+            "cost": 3
+        },
+        {
+            "field": "nature",
+            "index": "hunter",
+            "name": "Hunter",
+            "description": "Gain a 2d8 when making checks to track, attack, tame, or handle you chosen wild animal that is native to your terrain",
+            "prerec": ["terrain-specialist"],
+            "cost": 3
+        },
+        {
+            "field": "nature",
+            "index": "storm-shade",
+            "name": "Storm Shade",
+            "description": "You do not add storm die to your pools in hot or cold weather",
+            "prerec": ["survivalist"],
+            "cost": 3
+        },
+        {
+            "field": "nature",
+            "index": "storm-warrden",
+            "name": "Storm Warrden",
+            "description": "Your party gains 2 confidence in storms",
+            "prerec": ["survivalist"],
+            "cost": 3
+        },
+        {
+            "field": "resistance",
+            "index": "soldier",
+            "name": "Soldier",
+            "description": "You may wear armor",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "resistance",
+            "index": "heavy-soldier",
+            "name": "Heavy soldier",
+            "description": "Armor negates one more damage",
+            "prerec": ["soldier"],
+            "cost": 2
+        },
+        {
+            "field": "resistance",
+            "index": "hardened-soldier",
+            "name": "Hardened Soldier",
+            "description": "You start combats with two negative d6 dice that your may add to any attack targeting you once between now and the end of combat",
+            "prerec": ["soldier"],
+            "cost": 2
+        },
+        {
+            "field": "resistance",
+            "index": "goliath",
+            "name": "Goliath",
+            "description": "Armor negates one more damage",
+            "prerec": ["heavy-solider"],
+            "cost": 3
+        },
+        {
+            "field": "resistance",
+            "index": "battle-brother",
+            "name": "Battle Brother",
+            "description": "Lose 5 feet of movement, one person around your can not be attacked before you in a round",
+            "prerec": ["heavy-solider"],
+            "cost": 3
+        },
+        {
+            "field": "resistance",
+            "index": "shield-wall",
+            "name": "Shield Wall",
+            "description": "Shields add two extra d4 to block rolls",
+            "prerec": ["hardened-soldier"],
+            "cost": 3
+        },
+        {
+            "field": "resistance",
+            "index": "fox-footed",
+            "name": "Fox Footed",
+            "description": "Negative die from defensive actions d not need to be used before your next turn, only before the end of the combat",
+            "prerec": ["hardened-soldier"],
+            "cost": 3
+        },
+        {
+            "field": "runes",
+            "index": "mage",
+            "name": "Mage",
+            "description": "You may ignite runes",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "runes",
+            "index": "snap-mage",
+            "name": "Snap Mage",
+            "description": "It costs one less energy to ignite runes",
+            "prerec": ["mage"],
+            "cost": 2
+        },
+        {
+            "field": "runes",
+            "index": "deepcut-mage",
+            "name": "Deepcut Mage",
+            "description": "It costs one more energy to ignite runes",
+            "prerec": ["mage"],
+            "cost": 2
+        },
+        {
+            "field": "runes",
+            "index": "blink-mage",
+            "name": "Blink Mage",
+            "description": "It costs no energy to ignite runes and does not take an action",
+            "prerec": ["snap-mage"],
+            "cost": 3
+        },
+        {
+            "field": "runes",
+            "index": "split-mage",
+            "name": "Split Mage",
+            "description": "You may have an additional rune",
+            "prerec": ["snap-mage"],
+            "cost": 3
+        },
+        {
+            "field": "runes",
+            "index": "cyclic-mage",
+            "name": "Cyclic Mage",
+            "description": "You add an extra d10 to your rune rolls when in the right light. Add a negative d10 when you're in the inverse light",
+            "prerec": ["deepcut-mage"],
+            "cost": 3
+        },
+        {
+            "field": "runes",
+            "index": "polar-mage",
+            "name": "Polar Mage",
+            "description": "Choose one: Hellian - Each time you ignite a rune, you may make a rune roll. Deal the number of successess in damage to everyone in a 40 foot range. Stellian - Each time you ignite a rune you unignite all other runes in a 40 foot radius",
+            "prerec": ["deepcut-mage"],
+            "cost": 3
+        },
+        {
+            "field": "speech",
+            "index": "speaker",
+            "name": "Speaker",
+            "description": "You may roll a focus speech roll to \"know a guy\" for one action once a session",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "speech",
+            "index": "proper-speaker",
+            "name": "Proper Speaker",
+            "description": "Gin a d6 when making speech rolls in high class situations",
+            "prerec": ["speaker"],
+            "cost": 2
+        },
+        {
+            "field": "speech",
+            "index": "street-speaker",
+            "name": "Street Spekar",
+            "description": "Gain a d6 when making speech rolls in low class situations",
+            "prerec": ["speaker"],
+            "cost": 2
+        },
+        {
+            "field": "speech",
+            "index": "observant-speaker",
+            "name": "Observant Speaker",
+            "description": "Gain a d10 toa ll focus rolls made in the middle of conversation",
+            "prerec": ["proper-speaker"],
+            "cost": 3
+        },
+        {
+            "field": "speech",
+            "index": "posh-speaker",
+            "name": "Posh Speaker",
+            "description": "Gain a second d6 when making speech rolls in high class situations. Gain two negative d6s when making speech rolls in low class situations",
+            "prerec": ["proper-speaker"],
+            "cost": 3
+        },
+        {
+            "field": "speech",
+            "index": "hypeman",
+            "name": "Hypeman",
+            "description": "Gain a second d6 when making speech rolls in low lass situations. Gain two negative d6 when making speechs rolls in high class situations",
+            "prerec": ["street-speaker"],
+            "cost": 3
+        },
+        {
+            "field": "speech",
+            "index": "loud-mouth",
+            "name": "Loud Mouth",
+            "description": "You may take the taunt action",
+            "prerec": ["street-speaker"],
+            "cost": 3
+        },
+        {
+            "field": "stealth",
+            "index": "lightfoot",
+            "name": "Lightfoot",
+            "description": "",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "stealth",
+            "index": "rouge",
+            "name": "Rouge",
+            "description": "Gain a d6 to any pool or roll that has a focus die in it when sneaking around",
+            "prerec": ["lightfoot"],
+            "cost": 2
+        },
+        {
+            "field": "stealth",
+            "index": "assassin",
+            "name": "Assassin",
+            "description": "Attacking a surprised target with an attack with the short tag deals 4 more damage",
+            "prerec": ["lightfoot"],
+            "cost": 2
+        },
+        {
+            "field": "stealth",
+            "index": "rouge-commander",
+            "name": "Rouge Commander",
+            "description": "A maximum of three people may follow you while you sneak around. replace two of your agility die with two f your group member's agility die when making stealth rolls",
+            "prerec": ["rouge"],
+            "cost": 3
+        },
+        {
+            "field": "stealth",
+            "index": "shadow",
+            "name": "Shadow",
+            "description": "Each time you get a stealth boon, gain another",
+            "prerec": ["rouge"],
+            "cost": 3
+        },
+        {
+            "field": "stealth",
+            "index": "brutalizing-assassin",
+            "name": "Brutalizing Assassin",
+            "description": "Attacking a surprise target causes all enemies who notice to lose 2 confidence for an hour",
+            "prerec": ["assassin"],
+            "cost": 3
+        },
+        {
+            "field": "stealth",
+            "index": "ghost",
+            "name": "Ghost",
+            "description": "Attacking a surprised target with no witnessess with an attack with the short tag ignores energy and deals 2 additional damage",
+            "prerec": ["assassin"],
+            "cost": 3
+        },
+        {
+            "field": "worship",
+            "index": "follower",
+            "name": "Follower",
+            "description": "Gain one energy",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "worship",
+            "index": "zealot",
+            "name": "Zealot",
+            "description": "You may forgo any amount of recovery and instead gain a pool of d6s equaal to the number of point forwent. this pool may not go larger than your focus and ma be added to any roll that contains a confidence die",
+            "prerec": ["follower"],
+            "cost": 2
+        },
+        {
+            "field": "worship",
+            "index": "congregant",
+            "name": "Congregant",
+            "description": "When anyone else in your party gains recovery die they gain an additional d6",
+            "prerec": ["follower"],
+            "cost": 2
+        },
+        {
+            "field": "worship",
+            "index": "zealot-of-sacrement",
+            "name": "Zealot of Sacrement",
+            "description": "You have a 10 minute ritual that subtracts 2 energy nd allows you to add a confidence die to your next roll",
+            "prerec": ["zealot"],
+            "cost": 3
+        },
+        {
+            "field": "worship",
+            "index": "dream-zealot",
+            "name": "Dream Zealot",
+            "description": "Once a day you may spend all of your energy (you must have at least four left) to enter",
+            "prerec": [""],
+            "cost": 0
+        },
+        {
+            "field": "worship",
+            "index": "avenging-divine",
+            "name": "Avenging Divine",
+            "description": "When anyone in your party suffers harm, you gain a d4 to add to any roll against the offending party in the next turn",
+            "prerec": ["congregant"],
+            "cost": 3
+        },
+        {
+            "field": "worship",
+            "index": "sage",
+            "name": "Sage",
+            "description": "Once per week, allow each of your party members to roll a confidence worship roll, and gain energy equal to the number of successes",
+            "prerec": ["congregant"],
+            "cost": 3
+        },
+        {
+            "field": "insanity",
+            "index": "twitch",
+            "name": "Twitch",
+            "description": "Gain one energy",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "insanity",
+            "index": "bastard",
+            "name": "Bastard",
+            "description": "You may not have speech titles. Gain an additional confidence die when intimidating someone",
+            "prerec": ["twitch"],
+            "cost": 2
+        },
+        {
+            "field": "insanity",
+            "index": "lunatic",
+            "name": "Lunatic",
+            "description": "Gain a point of energy (overflow allowed) when you start any combat",
+            "prerec": ["twitch"],
+            "cost": 2
+        },
+        {
+            "field": "insanity",
+            "index": "crazy-bastard",
+            "name": "Crazy Bastard",
+            "description": "You don't accumulate harm dice, you are not told how much damage you take",
+            "prerec": ["bastard"],
+            "cost": 3
+        },
+        {
+            "field": "insanity",
+            "index": "bloodless-bastard",
+            "name": "Bloodless Bastard",
+            "description": "If you are the first person to take damage in a fight, don't",
+            "prerec": ["bastard"],
+            "cost": 3
+        },
+        {
+            "field": "insanity",
+            "index": "crazed-lunatic",
+            "name": "Craze Lunatic",
+            "description": "During your surprise rounds your attacks subtract 2 sonfidence from the target on a hit. You may not take titles in the stealth tree",
+            "prerec": ["lunatic"],
+            "cost": 3
+        },
+        {
+            "field": "insanity",
+            "index": "manic-lunatic",
+            "name": "Manic Lunatic",
+            "description": "At the start of combat you may choose to enter a rage. If you do, your attacks deal 2 more damage, your movement is doubled, you may not make ranged attacks, and you are auto hit by attackers you did not deal damage to last round. The rage ends when you sleep",
+            "prerec": ["lunatic"],
+            "cost": 3
+        },
+        {
+            "field": "craftswork",
+            "index": "craftsman",
+            "name": "Craftsman",
+            "description": "You gain an understanding of material and craftwork",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "craftswork",
+            "index": "blacksmith",
+            "name": "Blacksmith",
+            "description": "You can psend an hour improving metal gear. The user gain a d6 o the next roll they make with that piece of gear",
+            "prerec": ["craftsman"],
+            "cost": 2
+        },
+        {
+            "field": "craftswork",
+            "index": "woodworker",
+            "name": "Woodworker",
+            "description": "You can spend an hour improving non-metal gear. The user gains a d6 to the next roll they make with that piece of gear",
+            "prerec": ["craftsman"],
+            "cost": 2
+        },
+        {
+            "field": "craftswork",
+            "index": "weapon-maker",
+            "name": "Weapon Maker",
+            "description": "When you make the melee weapon, you may add the swing, smash, engage, or reach tag",
+            "prerec": ["blacksmith"],
+            "cost": 3
+        },
+        {
+            "field": "craftswork",
+            "index": "armor-maker",
+            "name": "Armor Maker",
+            "description": "When you make armor, choose a damage type, the wearer adds two to their armor score against that damage type",
+            "prerec": ["blacksmith"],
+            "cost": 3
+        },
+        {
+            "field": "craftswork",
+            "index": "fletcher",
+            "name": "Fletcher",
+            "description": "when you make a ranged weapon, it may use melee combat boon when it gains a boon",
+            "prerec": ["woodworker"],
+            "cost": 3
+        },
+        {
+            "field": "craftswork",
+            "index": "siege-master",
+            "name": "Siege Master",
+            "description": "When you take this title you gain a large siege engine (ship, battle wagon, balista, up to DM discretion",
+            "prerec": ["woodworker"],
+            "cost": 3
+        },
+        {
+            "field": "alchemy",
+            "index": "alchemist",
+            "name": "Alchemist",
+            "description": "You can cook alchemy",
+            "prerec": [],
+            "cost": 1
+        },
+        {
+            "field": "alchemy",
+            "index": "grenadier",
+            "name": "Grenadier",
+            "description": "You may carry two additional solid concoctions",
+            "prerec": ["alchemist"],
+            "cost": 2
+        },
+        {
+            "field": "alchemy",
+            "index": "tonicist",
+            "name": "Tonicist",
+            "description": "You may carry two additional solutions",
+            "prerec": ["alchemist"],
+            "cost": 2
+        },
+        {
+            "field": "alchemy",
+            "index": "heavy-shell-grenadier",
+            "name": "Heavy Shell Grenadier",
+            "description": "When you hit a character with a concoction they take a d4 of damager",
+            "prerec": ["Grenadier", "8 Strength"],
+            "cost": 3
+        },
+        {
+            "field": "alchemy",
+            "index": "thin-shell-grenadier",
+            "name": "Thin Shell Grenadier",
+            "description": "When you hit a character with a concoction effect an adjacent character as well",
+            "prerec": ["grenadier"],
+            "cost": 3
+        },
+        {
+            "field": "alchemy",
+            "index": "chemist",
+            "name": "Chemist",
+            "description": "You may add two solutes to a solution, but must subtract 2 from the concentration",
+            "prerec": ["tonicst"],
+            "cost": 3
+        },
+        {
+            "field": "alchemy",
+            "index": "mass-tonicist",
+            "name": "Mass Tonicist",
+            "description": "When you make a solution, make two",
+            "prerec": ["tonicst"],
+            "cost": 3
         }
     ]
 }
